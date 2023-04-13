@@ -15,7 +15,7 @@
 
 
 #logo {
-    background-color:rgb(124, 57, 33);
+    background-color: rgb(124, 57, 33);
     font-size: 3em;
     padding: 10px;
     width: 150px;
@@ -40,7 +40,8 @@ ul {
 
 .container {
     background-color: lightskyblue;
-    height: 1500px; /*  once i fill information into the container remove height  */
+    height: 1500px;
+    /*  once i fill information into the container remove height  */
     /* width: 85%;
     margin: 0 auto; */
     gap: 50px;
@@ -49,40 +50,35 @@ ul {
 }
 
 .col-1 {
-    background-color:khaki;
+    background-color: khaki;
     flex: 3;
 }
 
 .col-2 {
-    background-color:darkgreen;
+    background-color: darkgreen;
     flex: 2;
 }
 
 .profileContainer {
-        padding: 20px;
-        background-color: white;
-        background: linear-gradient(0deg, white 70%, rgb(49, 161, 199) 30%);
-        border: 1px solid grey;
+    padding: 20px;
+    background-color: white;
+    background: linear-gradient(0deg, white 70%, rgb(49, 161, 199) 30%);
+    border: 1px solid grey;
 }
 
 
 .profilePic {
     height: 75px;
     margin-top: 30px;
-    
+
 }
 
 
 .icon {
     height: 25px;
-    
+
 }
 
 .align-center {
     align-items: center;
 }
-
-
-
-
-
