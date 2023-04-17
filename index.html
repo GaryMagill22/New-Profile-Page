@@ -9,6 +9,7 @@
     <title>Profile Page</title>
 </head>
 <!-- NAVBAR -->
+
 <body>
     <div class="navbar flexed align-center justify-between fixed">
         <p id="logo">Profile</p>
@@ -21,7 +22,7 @@
             </button>
         </ul>
     </div>
-<!-- NAVBAR -->
+    <!-- NAVBAR -->
     <div class="container flexed">
         <div class="col-1">
             <!-- USER CARD -->
@@ -40,14 +41,14 @@
                 </p>
 
                 <p class="gear flexed align-center">
-                    <img src="./gear.png" class="icon" alt="gear image" />edit profile
+                    <img src="./gear.png" class="icon" alt="gear image"/><a href="#">edit profile</a>
                 </p>
             </div>
             <!-- USER CARD -->
             <!-- EDUCATION CARD -->
-            <div class="module">
+            <div class="module module-education">
                 <div class="modhead">
-                    <h2>Education</h2>
+                    <h2 id="education">Education</h2>
                 </div>
                 <div class="modbody">
                     <h2>Coding Dojo - Full Stack Bootcamp</h2>
@@ -60,22 +61,69 @@
         </div>
         <div class="col-2">
             <!-- CONNECTION REQUEST CARD -->
-            <div class="module">
+            <div class="module module-connections">
                 <div class="modhead">
-                    <h2>Connection Requests</h2>
-                </div>
-                <div class="modbody userlist">
-                    <ul>
-                        <li><img src="./todd-s.jpg" alt="todds profile pic">Todd E </li>
-                        <li><img src="./phil-s.jpg">Phil K</li>
-                    </ul>
-                </div>
 
+                    <h3><button class="btn">2</button>Connection Requests</h3>
+
+                </div>
+                <div class="top-div">
+                    <div class="user-top">
+                        <img src="./todd-s.jpg" alt="picture of Todd">
+                        <p>Todd E</p>
+
+                    </div>
+                    <div class="icon-top">
+                        <img src="./accept-circle.png" alt="accept circle">
+                        <img src="./close-circle.png" alt="close circle">
+                    </div>
+
+                </div>
+                <div class="bottom-div">
+                    <div class="user-bottom">
+                        <img src="./phil-s.jpg" alt="picture of Phil">
+                        <p>Phil E</p>
+
+                    </div>
+                    <div class="icon-bottom">
+                        <img src="./accept-circle.png" alt="accept circle">
+                        <img src="./close-circle.png" alt="close circle">
+                    </div>
+
+                </div>
             </div>
             <!-- CONNECTION REQUEST CARD -->
+
+            <!-- YOUR CONNNECTIONS CARD -->
+            <div class="module2">
+                <div class="modhead2">
+                    <h3><button class="btn2">500+</button>Your Connections</h3>
+                </div>
+                <div class="modbod2 modbod">
+                    <div class="flexed align-center">
+                        <img src="./adrien-s.jpg" alt="picture of Adrien">
+                        <p>Adrien D</p>
+                    </div>
+                    <div class="flexed align-center">
+                        <img src="./anne-s.jpg" alt="picture of Anne">
+                        <p>Anne J</p>
+                    </div>
+                    <div class="flexed align-center">
+                        <img src="./alayne-s.jpg" alt="picture of Alayne">
+                        <p>Todd E</p>
+                    </div>
+                    <div class="flexed align-center">
+                        <img src="./arry-s.jpg" alt="picture of Arry">
+                        <p>Arry Y</p>
+                    </div>
+                    <div class="view-more">
+                        <p><a href="#">View More</a></p>
+                    </div>
+                </div>
+                <!-- YOUR CONNECTIONS CARD -->
+            </div>
         </div>
     </div>
 </body>
 
 </html>
-

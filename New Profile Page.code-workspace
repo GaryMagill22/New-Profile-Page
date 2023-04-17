@@ -1,0 +1,11 @@
+{
+  "folders": [
+    {
+      "name": "New Profile Page",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "liveServer.settings.port": 5501
+  }
+}
